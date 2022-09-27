@@ -135,7 +135,7 @@ const numGuessesRemaining = function (guess) {
 const win = function () {
     if (wordInProgress.innerText === word.toUpperCase()) {
         messages.classList.add("win");
-        messages.innerHTML = '<p class="highlight">You guessed correct the word! 🎉</p>';
+        messages.innerHTML = '<p class="highlight">You guessed the word! 🎉</p>';
         startOver();
     }
 };
